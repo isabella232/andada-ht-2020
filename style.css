@@ -1,0 +1,313 @@
+<!DOCTYPE CSS>
+
+* {
+	margin:0px;
+	padding:0px;
+			}
+
+body {
+  background-color: white;
+  padding:10px 15px;
+  font-family: 'Telex', sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  }
+			
+header {
+	background-color: white;
+	position: fixed;		/* con esto hago que el header que contiene la botonera quede fijo */
+  	z-index: 10;			/* la propiedad z-index ordena que elelemto va arriba y que va abajo —layers— donde 0 es el elemento que esta debajo de todo */
+  	top:0px;				/* aca indico que este a 0 pixeles del top */
+  	width: 100%;			/* que ancho tendrá el header */
+	clear: both;
+}
+
+main {
+  position:absolute;
+  z-index: 2;
+  top:100px;
+  width: 100%;
+  max-width: 1000px;
+  display: block;
+}
+
+header h1 {
+	margin-left: 10px;
+}
+
+aside {
+	font-size: 24px;
+	font-weight: 300;
+	line-height:1.25;
+}
+
+h3{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+	color:rgb(159, 205, 77); 
+}
+
+.bajada {
+	font-size: 16px;
+	line-height: 1.25;
+}
+
+img{
+	width: 100%;
+	max-width: 1000px;
+}
+
+ul {
+	list-style: square;
+	padding-left: 10px;
+}
+
+figure {
+	margin: 10px;
+}
+
+figcaption ul {
+	list-style: square;
+	padding: 10px;
+
+}
+
+article figcaption {
+	padding-top: 20px;
+}
+
+.imgleft {
+	float: left;
+	width: 50%;
+	margin-left: 20px;
+}
+
+.imgright {
+	float: right;
+	width: 60%;
+	margin-left: 20px;
+}
+
+.textcolumn {
+  display: inline-block;
+  padding: 0px 20px;
+  width: 270px;
+  vertical-align: text-top;
+}
+
+
+/* |||||||||||| ESTILO DE LAS LINEAS DIVISIORIAS, 
+TENGO 3:
+- LA DE LA BOTONERA, SIN MARGEN;
+- LA QUE SEPARA LAS PAGINAS, SOLID NEGRA,
+- LA QUE SEPARA LOS TEMAS DENTRO DE CADA PAGINA, DASHED */
+
+hr{
+  color:black; 
+  border: 1px solid;
+  width: 100%;
+
+}
+section hr{
+  color:black; 
+  opacity: 0.5;
+  border: 0.5px dashed;
+  width: 100%;
+  }
+
+header hr {
+	margin-left: -30px; /* NO TIENE QUE TENER SANGRIA */
+	width: 100%;
+}
+
+.piedepagina {
+	background-color: black;
+	position: fixed;		
+  	z-index: 10;			
+  	bottom:0px;
+  	height: 40px;
+  	width: 100%;
+	clear: both;
+}
+
+
+/* |||||| ESTILOS DE LA BOTONERA |||||| */
+
+
+header ul{
+	list-style:none;        /*esto le saca el bolet */
+	padding: 10px 0px;			/*esto le saca la sangria a la lista */
+}
+			
+.nav > li {       			/* ahora, los elementos li que esten directamente adentro de la clase nav, esto se indica con el signo <, seguiran las siguientes reglas */      
+	float:left;				/* el float left hace que la lista que esta inmediatamente despues de la etiqueta nav se posicionan desde el margen izquierdo en sentido horizontal, la lista fluye hacia el costado, vemos que las sublistas se siguen acomodando para abajo */
+	}
+			
+.nav li a {                   /* todos los elementos a, que esten dentro de li que esten dentro de la clase nav seguirán las reglas a continuanción */
+	background-color:white;   /* color de fondo */
+	color:black;  			  /* color de la tipografia */
+	text-decoration:none;     /*como es un link por deafult el navegador lo subraya, al poner non decoration, saca ese subrayado */
+	padding:5px 12px;
+	display:block;            /* por defaul la caja que toma el navegador es la caja typografica, al darle un color de fondo, backgroud color, estamos haciendo que tenga una caja cuadrada de fondo que es mas grande que la caja tipografia, para que el navegador lea esta caja de color y no la caja tipografica, agregamos la propiedad display con el valor block en lugar de inline */
+	}
+			
+
+.nav li a:hover {							 /* aqui doy formato a los elementos a dentro de la lista dentro de la clase nav cuando el maus pasa por encima de ellos */
+	background-color:rgb(159, 205, 77);		 /*solo cambio el color de fondo*/
+	}
+			
+.nav li ul {				/*aqui creamos las reglas que seguiran los submenues*/
+	display:none;			/*propiedad display valor none, hace que las sublistas no se vean*/
+	position:absolute;      /*esto es para que el tamaño de la caja sea igual al de la caja del menu principal*/
+	min-width:140px;
+	padding: 0px;			/*esto le saca la sangria a la lista */
+	}
+		
+.nav li:hover > ul {        /* aquí hacemos que cuando pasamos con el maus (:hover) las sublistas directas de la lista que esta dentro de nav aparezcan debajo según el tambaño de la caja de color, no de la caja tipografica */
+	display:block;
+	}
+			
+.nav li ul li {				/*aqui formateamos la sublista de la sublista de la lista dentro de nav*/
+	position:relative;		/*la posicion relativa hace que este sub menu aparezca al lado y no debajo, como ocurriría si ponemos absoluto*/
+	}
+			
+.nav li ul li ul {			
+	right:-140px;			/*acá estamos diciendo que la posicion relativa sea 140 pixeles a la derecha (recordando que la caja tiene 140 pixeles) y que se alinie a 0 pixeles del menú que le da origen*/
+	top:0px;
+	}
+
+/* |||||| ESTILOS DE LOS SLIDES |||||| */
+
+.mainslides {		/* slide grande ancho de ventana */
+	width: 100%; 	/* ancho de ventana */
+	max-width: 1000px;
+}
+
+.smallslides {		/* slide es pequeño y esta a la derecha */
+	float: right;
+	width: 60%;
+	margin-left: 40px;
+}
+
+.smallslidesleft {		/* slide es pequeño y esta a la izquierda */
+	float: left;
+	width: 60%;
+	margin-right: 40px;
+}
+
+.slides{			/* aquí formateo el contenedor de las imagenes */
+	width: 100%; 	/* o sea, es 100% de los 90% que ocupa el bloque slides */
+}
+
+.slides img {		/* formato de las img dentro de la clase slides */
+	width: 100%;
+}
+
+/* aqui doy formato a la barra de navegacion de los slides.
+	la barra tiene dos partes:
+	- navegacion que corresponde al play, next y previus
+	- paginacion, que corresponde a 1 2 3 4 bla bla;
+Arriba hay propiedades que ya estan definidas
+la tipografia en el body > en body
+que no tenga tenga los bollets > en ul
+que no tenga sangria > en ul */
+
+
+.slidesjs-pagination {
+	background-color: white;
+	list-style: none;
+	margin: 0px;
+	overflow: auto;
+}
+
+.slidesjs-pagination li {	/* las listas dentro de esta clase deben ser horizontales */
+	float: left;			/* aquí hago que la lista de escriba desde la izquierda hacia la derecha y no de arriba hacia abajo */
+	
+}
+
+.slidesjs-pagination li a {	/* links, dentro de listas, dentro de esta clase paginacion */
+	display: block;			/* para que tome como caja un cuadrado y no el texto */
+	padding: 10px 10px;
+	color: black;
+	text-decoration: none;	/* aca saco el subrayado por defaul de los links */
+}
+
+.slidesjs-pagination li a:hover {
+	color: rgb(159, 205, 77);
+}
+
+.slides .active {			/* aca formateo los elementos dentro de la clase slides dentro de la clase active es porque son un link activo o desactivo, si el slide esta en 1, el link 1 es el activo, entonces ese boton que esta activo tomara las propiedades que describo a continuación */
+	text-decoration: underline;
+}
+
+.slidesjs-navigation {	/* aca doy formato al play, previos, next */
+	background: white;
+	color: black;
+	text-decoration: none;
+	padding: 10px 10px;
+	display: inline-block; 	/* esto me permite alinearlo en el margen derecho en la misma linea que los numeritos */
+	float: right;			/* para que cuelgue del margen derecho */
+}
+
+
+/* |||| FORMULARIO |||||| HICE COPYPASTE!  ||||||||  */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  /* border-radius: 4px; Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: rgb(159, 205, 77);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  /*border-radius: 4px;*/
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  /*border-radius: 4px;*/
+  background-color: white;
+  padding: 20px;
+}
+
+
+/* FORMATEO DE LA GALERIA DE FONT IN USE */
+
+/* PARA 3 POR LINEA 33.33% -PERO NO FUNCIONA- SI SON 4, 25% Y SI SON 2 50%, puede fallar */
+
+
+/* Clear floats after image containers -- esto no anda :( */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
