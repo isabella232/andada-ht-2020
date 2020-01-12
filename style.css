@@ -67,7 +67,7 @@ ul {
 }
 
 figure {
-	margin: 10px;
+	margin: 20px;
 }
 
 figcaption ul {
@@ -80,16 +80,23 @@ article figcaption {
 	padding-top: 20px;
 }
 
+img {
+	margin: 20px 0 20px 0;
+
+}
+
 .imgleft {
 	float: left;
 	width: 50%;
-	margin-left: 20px;
+	margin: 20px 20px 20px 0px;
+
 }
 
 .imgright {
 	float: right;
 	width: 60%;
-	margin-left: 20px;
+	margin: 20px 0px 20px 20;
+
 }
 
 .textcolumn {
@@ -185,18 +192,19 @@ header ul{
 .mainslides {		/* slide grande ancho de ventana */
 	width: 100%; 	/* ancho de ventana */
 	max-width: 1000px;
+	margin: 20px 0 20px 0;
 }
 
 .smallslides {		/* slide es pequeño y esta a la derecha */
 	float: right;
 	width: 60%;
-	margin-left: 40px;
+	margin:20px 0 20px 40px;
 }
 
 .smallslidesleft {		/* slide es pequeño y esta a la izquierda */
 	float: left;
 	width: 60%;
-	margin-right: 40px;
+	margin: 20px 40px 20px 0;
 }
 
 .slides{			/* aquí formateo el contenedor de las imagenes */
