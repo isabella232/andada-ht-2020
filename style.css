@@ -6,7 +6,7 @@
 			}
 
 body {
-  background-color: white;
+  background-color: yellow;
   padding:10px 15px;
   font-family: 'Telex', sans-serif;
   font-size: 12px;
@@ -51,15 +51,6 @@ a {
 	color:rgb(159, 205, 77); 
 }
 
-.bajada {
-	font-size: 16px;
-	line-height: 1.25;
-}
-
-img{
-	width: 100%;
-	max-width: 1000px;
-}
 
 ul {
 	list-style: square;
@@ -76,13 +67,9 @@ figcaption ul {
 
 }
 
-article figcaption {
-	padding-top: 20px;
-}
-
-img {
-	margin: 20px 0 20px 0;
-
+img{
+	width: 100%;
+	max-width: 1000px;
 }
 
 .imgleft {
@@ -99,11 +86,15 @@ img {
 
 }
 
-.textcolumn {
-  display: inline-block;
-  padding: 0px 20px;
-  width: 270px;
-  vertical-align: text-top;
+.flex-conteiner {
+	display: inline-block;
+	padding: 0;
+	width: 33%;
+	vertical-align: text-top;
+}
+
+.flex-conteiner p, h3 {
+	padding: 0px 10px;
 }
 
 
