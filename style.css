@@ -43,7 +43,7 @@ aside {
 
 h3{
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 600;
   margin: 0px;
 }
 
@@ -57,6 +57,7 @@ a {
 ul {
 	list-style: square;
 }
+
 
 figure {
 	margin: 0px;
