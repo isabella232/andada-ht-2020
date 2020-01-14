@@ -26,21 +26,12 @@ nav {
 	clear: both;
 }
 
-/* |||||||||||| ESTILO DE LAS LINEAS DIVISIORIAS, 
-TENGO 3:
-- LA DE LA BOTONERA, SIN MARGEN;
-- LA QUE SEPARA LAS PAGINAS, SOLID NEGRA,
-- LA QUE SEPARA LOS TEMAS DENTRO DE CADA PAGINA, DASHED */
-
 hr{
 	color:black; 
 	border: 1px solid;
 	width: 100%;
 	}
- header hr {
-	border: 2px solid;
-	width: 100%;
-	}
+
 section hr{
 	color:black; 
 	opacity: 0.5;
@@ -50,7 +41,10 @@ section hr{
 	}
 
 
-header h1 {
+h1 {
+	color:white;
+	display: block;
+	float: left;
 	margin-left: 10px;
 	}
 
@@ -130,16 +124,6 @@ img{
 
 }
 
-.piedepagina {
-	background-color: black;
-	position: fixed;		
-  	z-index: 10;			
-  	bottom:0px;
-  	height: 40px;
-  	width: 100%;
-	clear: both;
-}
-
 
 /* |||||| ESTILOS DE LA BOTONERA |||||| */
 
@@ -156,9 +140,10 @@ nav ul{
 .nav li a {                   /* todos los elementos a, que esten dentro de li que esten dentro de la clase nav seguirán las reglas a continuanción */
 	background-color:#333333;   /* color de fondo */
 	color:white;  			  /* color de la tipografia */
-	font-size: 14px;
+	font-size: 12px;
+	text-transform: uppercase;
 	text-decoration:none;     /*como es un link por deafult el navegador lo subraya, al poner non decoration, saca ese subrayado */
-	padding:5px 25px;
+	padding:15px 25px;
 	display:block;            /* por defaul la caja que toma el navegador es la caja typografica, al darle un color de fondo, backgroud color, estamos haciendo que tenga una caja cuadrada de fondo que es mas grande que la caja tipografia, para que el navegador lea esta caja de color y no la caja tipografica, agregamos la propiedad display con el valor block en lugar de inline */
 	}
 			
