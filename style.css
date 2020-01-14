@@ -17,7 +17,7 @@ body {
   }
 			
 nav {
-	background-color: #333333;
+	background-color: white;
 	position: fixed;		/* con esto hago que el header que contiene la botonera quede fijo */
   	z-index: 10;			/* la propiedad z-index ordena que elelemto va arriba y que va abajo —layers— donde 0 es el elemento que esta debajo de todo */
   	top:0px;				/* aca indico que este a 0 pixeles del top */
@@ -42,7 +42,7 @@ section hr{
 
 
 h1 {
-	color:white;
+	color:black;
 	display: block;
 	float: left;
 	margin-left: 10px;
@@ -125,32 +125,33 @@ img{
 }
 
 
-/* |||||| ESTILOS DE LA BOTONERA |||||| */
+/* |||||| ESTILOS DE LA BARRA DE NAVEGACION |||||| */
 
 
 nav ul{
-	list-style:none;        /*esto le saca el bolet */
+	list-style:none;      		/*esto le saca el bolet */
 	padding: 10px 0px;			/*esto le saca la sangria a la lista */
 }
 			
-.nav > li {       			/* ahora, los elementos li que esten directamente adentro de la clase nav, esto se indica con el signo <, seguiran las siguientes reglas */      
+.nav > li {       				/* ahora, los elementos li que esten directamente adentro de la clase nav, esto se indica con el signo <, seguiran las siguientes reglas */      
 	float:right;				/* el float left hace que la lista que esta inmediatamente despues de la etiqueta nav se posicionan desde el margen izquierdo en sentido horizontal, la lista fluye hacia el costado, vemos que las sublistas se siguen acomodando para abajo */
 	}
 			
 .nav li a {                   /* todos los elementos a, que esten dentro de li que esten dentro de la clase nav seguirán las reglas a continuanción */
-	background-color:#333333;   /* color de fondo */
-	color:white;  			  /* color de la tipografia */
+	background-color:white;   /* color de fondo */
+	color:black;  			  /* color de la tipografia */
 	font-size: 12px;
 	text-transform: uppercase;
 	text-decoration:none;     /*como es un link por deafult el navegador lo subraya, al poner non decoration, saca ese subrayado */
 	padding:15px 25px;
-	display:block;            /* por defaul la caja que toma el navegador es la caja typografica, al darle un color de fondo, backgroud color, estamos haciendo que tenga una caja cuadrada de fondo que es mas grande que la caja tipografia, para que el navegador lea esta caja de color y no la caja tipografica, agregamos la propiedad display con el valor block en lugar de inline */
+	display:block;            /* por defaul la caja que toma el navegador es la caja typografica inline, al darle un color de fondo, backgroud color, estamos haciendo que tenga una caja cuadrada de fondo que es mas grande que la caja tipografia, para que el navegador lea esta caja de color y no la caja tipografica, agregamos la propiedad display con el valor block en lugar de inline */
 	}
 			
 
 .nav li a:hover {							 /* aqui doy formato a los elementos a dentro de la lista dentro de la clase nav cuando el maus pasa por encima de ellos */
-	background-color:black;		 /*solo cambio el color de fondo*/
-	}
+	background-color:#333333;		 /*solo cambio el color de fondo*/
+	color:white;
+}
 			
 .nav li ul {				/*aqui creamos las reglas que seguiran los submenues*/
 	display:none;			/*propiedad display valor none, hace que las sublistas no se vean*/
@@ -160,7 +161,7 @@ nav ul{
 	}
 		
 .nav li:hover > ul {        /* aquí hacemos que cuando pasamos con el maus (:hover) las sublistas directas de la lista que esta dentro de nav aparezcan debajo según el tambaño de la caja de color, no de la caja tipografica */
-	display:block;
+	display:block
 	}
 			
 .nav li ul li {				/*aqui formateamos la sublista de la sublista de la lista dentro de nav*/
@@ -171,6 +172,10 @@ nav ul{
 	right:-185px;			/*acá estamos diciendo que la posicion relativa sea 140 pixeles a la derecha (recordando que la caja tiene 140 pixeles) y que se alinie a 0 pixeles del menú que le da origen*/
 	top:0px;
 	}
+
+.nav hr {
+
+}
 
 /* |||||| ESTILOS DE LOS SLIDES |||||| */
 
