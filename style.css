@@ -24,7 +24,8 @@ nav {
   	top:0px;				/* aca indico que este a 0 pixeles del top */
   	width: 100%;
   	max-width: 1000px;			/* que ancho tendrá el header */
-	clear: both;
+    clear: both;
+
 }
 
 main {
@@ -52,7 +53,7 @@ section hr{
 
 
 h1 {
-	color:black;
+    font-family: 'Andada', serif;
 	display: block;
 	float: left;
 	margin-left: 10px;
@@ -144,14 +145,16 @@ nav ul{
 	}
 
 .nav li a {                   /* todos los elementos a, que esten dentro de li que esten dentro de la clase nav seguirán las reglas a continuanción */
+    /* font-family: 'Andada', serif; */
 	background-color:white;   /* color de fondo */
 	color:black;  			  /* color de la tipografia */
 	font-size: 12px;
-	text-transform: uppercase;
+    text-transform: uppercase;
+    letter-spacing: .1em;
 	text-decoration:none;     /*como es un link por deafult el navegador lo subraya, al poner non decoration, saca ese subrayado */
-	padding:15px 25px;
+	padding: 15px 25px;
 	display:block;            /* por defaul la caja que toma el navegador es la caja typografica inline, al darle un color de fondo, backgroud color, estamos haciendo que tenga una caja cuadrada de fondo que es mas grande que la caja tipografia, para que el navegador lea esta caja de color y no la caja tipografica, agregamos la propiedad display con el valor block en lugar de inline */
-	}
+}
 
 
 .nav li a:hover {							 /* aqui doy formato a los elementos a dentro de la lista dentro de la clase nav cuando el maus pasa por encima de ellos */
