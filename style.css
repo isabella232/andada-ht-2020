@@ -26,6 +26,15 @@ nav {
 	clear: both;
 }
 
+main {
+	position:absolute;
+	z-index: 2;
+	top:100px;
+	width: 97%;
+	max-width: 1000px;
+	display: block;
+	}
+
 hr{
 	color:black; 
 	border: 1px solid;
@@ -48,28 +57,30 @@ h1 {
 	margin-left: 10px;
 	}
 
-main {
-	position:absolute;
-	z-index: 2;
-	top:100px;
-	width: 97%;
-	max-width: 1000px;
-	display: block;
-	}
-
-aside {
-	font-size: 18px;
-	font-weight: 300;
-	margin: 30px 0 30px 0;
-	line-height:1.25;
+h2 {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24px;
 	}
 
 h3{
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 600;
-	margin: 0px;
+	line-height: 20px;
+
 	}
 
+
+.bajada {
+	font-size: 18px;
+	font-weight: 300;
+	line-height:1.25;
+}
+
+p {
+	font-size: 12px;
+	line-height: 16px;
+}
 
 a {
 	text-decoration: none;
@@ -79,33 +90,38 @@ a {
 
 ul {
 	list-style: square;
+	list-style-position: inside;
 }
 
+ol {
+	list-style-position: inside;
+}
 
 figure {
 	margin: 0px;
+	margin: 20px 0px 20px 0px;
 }
 
 img{
 	width: 100%;
-	max-width: 1000px;
+	max-width: 1000px;	
 }
 
 .imgleft {
 	float: left;
 	width: 50%;
-	margin: 0px 20px 0px 0px;
+	margin: 20px 20px 20px 0px;
 }
 
 .imgright {
 	float: right;
 	width: 50%;
-	margin: 0px 0px 0px 20px;
+	margin: 20px 0px 20px 20px;
 }
 
 .container {
 	padding: 0px;
-	margin: 10px 0px 10px 0px;	
+	margin: 30px 0px 30px 0px;	
 }
 
 .flex-container {
@@ -115,14 +131,7 @@ img{
 	vertical-align: text-top;
 }
 
-.flex-container p, h3 {
-	padding: 0px 10px;
-}
 
-.flex-container aside {
-	margin: 0px;
-
-}
 
 
 /* |||||| ESTILOS DE LA BARRA DE NAVEGACION |||||| */
