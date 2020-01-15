@@ -1,5 +1,5 @@
 :root {
-    font-size: 17px;
+    font-size: 16px;
 }
 
 * {
@@ -65,7 +65,7 @@ h2 {
 	}
 
 h3{
-	font-size: 1rem;
+	font-size: 1.1rem;
     font-weight: 600;
     margin-bottom: 1.3rem;
 	}
@@ -77,14 +77,14 @@ h3{
 	line-height:1.25;
 }
 
-p {
-}
-
 a {
 	text-decoration: none;
 	color:rgb(159, 205, 77);
 }
 
+p,ul, ol {
+	color:#5F5F5F;
+}
 
 ul {
 	list-style: square;
