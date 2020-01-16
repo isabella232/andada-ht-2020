@@ -142,19 +142,32 @@ nav ul{
 	padding: 10px 0px;			/*esto le saca la sangria a la lista */
 }
 
+.andada {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	overflow: auto;
+	display: block;
+	float: left;
+}
+
+.andada > a img {
+	max-height: 50px;
+	vertical-align: middle; 
+}
+
 .nav > li {       				/* ahora, los elementos li que esten directamente adentro de la clase nav, esto se indica con el signo <, seguiran las siguientes reglas */
 	float:right;				/* el float left hace que la lista que esta inmediatamente despues de la etiqueta nav se posicionan desde el margen izquierdo en sentido horizontal, la lista fluye hacia el costado, vemos que las sublistas se siguen acomodando para abajo */
 	}
 
 .nav li a {                   /* todos los elementos a, que esten dentro de li que esten dentro de la clase nav seguirán las reglas a continuanción */
-    /* font-family: 'Andada', serif; */
 	background-color:white;   /* color de fondo */
 	color:black;  			  /* color de la tipografia */
 	font-size: 12px;
     text-transform: uppercase;
     letter-spacing: .1em;
 	text-decoration:none;     /*como es un link por deafult el navegador lo subraya, al poner non decoration, saca ese subrayado */
-	padding: 15px 25px;
+	padding: 15px 15px;
 	display:block;            /* por defaul la caja que toma el navegador es la caja typografica inline, al darle un color de fondo, backgroud color, estamos haciendo que tenga una caja cuadrada de fondo que es mas grande que la caja tipografia, para que el navegador lea esta caja de color y no la caja tipografica, agregamos la propiedad display con el valor block en lugar de inline */
 }
 
