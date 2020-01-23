@@ -136,15 +136,6 @@ img{
 	margin: 30px 0px 30px 0px;
 }
 
-
-#foot img {
-	display: block;
-	margin: 0px;
-	padding: 0px 0px 20px 0px;
-	max-height: 30px;
-	vertical-align: middle; 
-}
-
 /* |||||| ESTILOS DE LA BARRA DE NAVEGACION |||||| */
 
 
@@ -153,7 +144,7 @@ nav ul{
 	padding: 10px 0px;			/*esto le saca la sangria a la lista */
 }
 
-.andada {
+.logo {
 	display: block;
 	margin: 0px;
 	padding: 0px;
@@ -162,7 +153,7 @@ nav ul{
 	float: left;
 }
 
-.andada > a img {
+.logo > a img {
 	max-height: 50px;
 	vertical-align: middle; 
 }
@@ -212,8 +203,33 @@ nav ul{
 
 }
 
-/* |||||| ESTILOS DE LOS SLIDES |||||| */
 
+
+
+
+/* |||||| Pie de pagina logo ht y redes sociales |||||| */
+
+.foot li {
+	list-style: none;
+	display: inline-block;
+	float: left;
+	margin: 0px 0px 50px 0px;
+}
+
+.foot li a {
+	display: inline-block;
+	padding: 0px 10px 0px 10px;
+}
+
+.foot img {
+	height: 30px;
+}
+
+
+
+
+
+/* |||||| ESTILOS DE LOS SLIDES |||||| */
 
 .mainslides {		/* slide grande ancho de ventana */
 	width: 100%; 	/* ancho de ventana */
