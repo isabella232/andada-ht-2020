@@ -40,7 +40,7 @@ main {
 
 hr{
 	color:black;
-	border: 1px solid;
+	border: 2px solid;
 	width: 100%;
 	}
 
@@ -58,29 +58,52 @@ h1 {
 	display: block;
 	float: left;
 	margin-left: 10px;
+    display: block;
 	}
 
 h2 {
 	font-size: 1.7rem;
 	font-weight: 600;
+	display: block;
+
 	}
 
 h3{
 	font-size: 1.1rem;
     font-weight: 600;
     margin-bottom: 1.3rem;
+    display: block;
 	}
 
-.verde h2 {
-	display: block;
-	background-color:rgb(159, 205, 77);
-	padding: 15px 15px;
-}
 
 .bajada {
-    font-size: 1.7rem;
+	display:block;
+	padding: 0 0 10px 0;
+	font-size: 1.7rem;
 	font-weight: 300;
 	line-height:1.25;
+}
+
+.textright {
+	display: block;
+	float: right;
+	padding: 5px 0 5px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .1em;
+	text-decoration:none;
+	font-size: 0.8rem;
+}
+
+.gototop a {
+	display: inline-block;
+	padding: 15px 15px;
+	width: 97%;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .1em;
+	text-decoration:none;
+	background-color: black;
 }
 
 a {
@@ -88,7 +111,7 @@ a {
 	color:rgb(159, 205, 77);
 }
 
-p,ul, ol {
+p, ul, ol {
 	color:#5F5F5F;
 }
 
@@ -136,6 +159,17 @@ img{
 	margin: 30px 0px 30px 0px;
 }
 
+.columntext {
+	column-count: 3;
+	column-gap: 40px;
+	marging:30px 0px 30px 0px;
+	column-rule-style: dotted;
+	column-rule-width: 1px;
+	column-rule-color: #5F5F5F;
+
+
+}
+
 /* |||||| ESTILOS DE LA BARRA DE NAVEGACION |||||| */
 
 
@@ -165,7 +199,7 @@ nav ul{
 .nav li a {                   /* todos los elementos a, que esten dentro de li que esten dentro de la clase nav seguirán las reglas a continuanción */
 	background-color:white;   /* color de fondo */
 	color:black;  			  /* color de la tipografia */
-	font-size: 12px;
+	font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: .1em;
 	text-decoration:none;     /*como es un link por deafult el navegador lo subraya, al poner non decoration, saca ese subrayado */
@@ -202,23 +236,19 @@ nav ul{
 
 /* |||||| Pie de pagina logo ht y redes sociales |||||| */
 
-.foot li {
+
+#foot {
+	text-align: left;
+}
+
+#foot ul {
 	list-style: none;
-	display: inline-block;
-	float: left;
-	margin: 0px 0px 50px 0px;
 }
 
-.foot li a {
-	display: inline-block;
-	padding: 0px 10px 0px 10px;
+.logohtfoot figure {
+	display: block;
+	padding: 15px 0 15px 0;
 }
-
-.foot img {
-	height: 30px;
-}
-
-
 
 
 
@@ -296,49 +326,9 @@ que no tenga sangria > en ul */
 }
 
 
-/* |||| FORMULARIO |||||| HICE COPYPASTE!  ||||||||  */
-
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */
-  border: 1px solid #ccc; /* Gray border */
-  /* border-radius: 4px; Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-  background-color: rgb(159, 205, 77);
-  color: white;
-  padding: 5px 10px;
-  border: none;
-  /*border-radius: 4px;*/
-  cursor: pointer;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-/* Add a background color and some padding around the form */
-
-.formular-container {
-  border-radius: 0px;
-  background-color: white;
-  padding: 20px;
-}
-
 /* FORMATEO DE LA GALERIA DE FONT IN USE */
-
 /* PARA 3 POR LINEA 33.33% -PERO NO FUNCIONA- SI SON 4, 25% Y SI SON 2 50%, puede fallar */
 
-
-/* Clear floats after image containers -- esto no anda :( */
 .row::after {
   content: "";
   clear: both;
