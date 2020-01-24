@@ -65,6 +65,7 @@ h2 {
 	font-size: 1.7rem;
 	font-weight: 600;
 	display: block;
+	padding: 20px 0 0 0;
 
 	}
 
@@ -209,7 +210,7 @@ nav ul{
 
 
 .nav li a:hover {							 /* aqui doy formato a los elementos a dentro de la lista dentro de la clase nav cuando el maus pasa por encima de ellos */
-	background-color:#333333;		 /*solo cambio el color de fondo*/
+	background-color:#323232;		/*#333333 gris frio /*solo cambio el color de fondo*/
 	color:white;
 }
 
@@ -291,7 +292,6 @@ que no tenga sangria > en ul */
 
 
 .slidesjs-pagination {
-	background-color: white;
 	list-style: none;
 	margin: 0px;
 	overflow: auto;
@@ -317,7 +317,6 @@ que no tenga sangria > en ul */
 }
 
 .slidesjs-navigation {	/* aca doy formato al play, previos, next */
-	background: white;
 	color: black;
 	text-decoration: none;
 	padding: 10px 10px;
