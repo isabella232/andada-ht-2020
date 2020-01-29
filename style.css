@@ -48,7 +48,7 @@ hr{
 section hr{
 	color:rgb(51 51 51);
 	opacity: 0.5;
-	border: 0.5px dashed;
+	border: .5px dashed;
 	width: 100%;
 	max-width: 1000px;
 	}
@@ -183,14 +183,11 @@ img{
 	font-size: 0.8rem;
 }
 
-#foot ul {
-	list-style: none;
-}
 
 /* |||||| ESTILOS DE LA BARRA DE NAVEGACION |||||| */
 
 
-nav ul{
+nav ul li{
 	list-style:none;      		/*esto le saca el bolet */
 	padding: 10px 0px;			/*esto le saca la sangria a la lista */
 }
@@ -235,7 +232,7 @@ nav ul{
 	position:absolute;      /*esto es para que el tamaño de la caja sea igual al de la caja del menu principal*/
 	min-width:185px;
 	padding: 0px;			/*esto le saca la sangria a la lista */
-	}
+}
 
 .nav li:hover > ul {        /* aquí hacemos que cuando pasamos con el maus (:hover) las sublistas directas de la lista que esta dentro de nav aparezcan debajo según el tambaño de la caja de color, no de la caja tipografica */
 	display:block
