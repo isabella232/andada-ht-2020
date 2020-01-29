@@ -39,13 +39,14 @@ main {
 	}
 
 hr{
-	color:black;
+	color:rgb(51 51 51);
 	border: 2px solid;
 	width: 100%;
+	max-width: 1000px;
 	}
 
 section hr{
-	color:black;
+	color:rgb(51 51 51);
 	opacity: 0.5;
 	border: 0.5px dashed;
 	width: 100%;
@@ -93,18 +94,21 @@ h3{
     font-weight: 600;
     letter-spacing: .1em;
 	text-decoration:none;
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 }
 
 .gototop a {
 	display: inline-block;
-	padding: 15px 15px;
-	width: 97%;
+	padding: 10px 10px;
+	margin: 0 0 0 0;
+	width: 98.4%;
+	max-width: 1000px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: .1em;
 	text-decoration:none;
-	background-color: black;
+	background-color: rgb(51 51 51);
+	font-size: .8rem;
 }
 
 a {
@@ -167,8 +171,20 @@ img{
 	column-rule-style: dotted;
 	column-rule-width: 1px;
 	column-rule-color: #5F5F5F;
+}
 
+.columntext4 {
+	column-count: 4;
+	column-gap: 40px;
+	marging:30px 0px 30px 0px;
+	column-rule-style: dotted;
+	column-rule-width: 1px;
+	column-rule-color: #5F5F5F;
+	font-size: 0.8rem;
+}
 
+#foot ul {
+	list-style: none;
 }
 
 /* |||||| ESTILOS DE LA BARRA DE NAVEGACION |||||| */
@@ -233,24 +249,6 @@ nav ul{
 	right:-185px;			/*acá estamos diciendo que la posicion relativa sea 140 pixeles a la derecha (recordando que la caja tiene 140 pixeles) y que se alinie a 0 pixeles del menú que le da origen*/
 	top:0px;
 	}
-
-
-/* |||||| Pie de pagina logo ht y redes sociales |||||| */
-
-
-#foot {
-	text-align: left;
-}
-
-#foot ul {
-	list-style: none;
-}
-
-.logohtfoot figure {
-	display: block;
-	padding: 15px 0 15px 0;
-}
-
 
 
 /* |||||| ESTILOS DE LOS SLIDES |||||| */
