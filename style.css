@@ -186,10 +186,18 @@ img{
 
 /* |||||| ESTILOS DE LA BARRA DE NAVEGACION |||||| */
 
-
-nav ul li{
+.nav {
+	padding: 15px 0 0 0; 
+}
+.nav ul li{
 	list-style:none;      		/*esto le saca el bolet */
-	padding: 10px 0px;			/*esto le saca la sangria a la lista */
+	padding: 0px 0px;			/*esto le saca la sangria a la lista */
+}
+
+.nav li {
+	list-style: none;
+	padding: 0px 0px;
+	margin: 0px 0px; 
 }
 
 .logo {
@@ -204,6 +212,8 @@ nav ul li{
 .logo > a img {
 	max-height: 50px;
 	vertical-align: middle; 
+	padding: 10px 0 0 0; 
+
 }
 
 .nav > li {       				/* ahora, los elementos li que esten directamente adentro de la clase nav, esto se indica con el signo <, seguiran las siguientes reglas */
@@ -230,7 +240,7 @@ nav ul li{
 .nav li ul {				/*aqui creamos las reglas que seguiran los submenues*/
 	display:none;			/*propiedad display valor none, hace que las sublistas no se vean*/
 	position:absolute;      /*esto es para que el tamaño de la caja sea igual al de la caja del menu principal*/
-	min-width:185px;
+	min-width:200px;
 	padding: 0px;			/*esto le saca la sangria a la lista */
 }
 
@@ -243,7 +253,7 @@ nav ul li{
 	}
 
 .nav li ul li ul {
-	right:-185px;			/*acá estamos diciendo que la posicion relativa sea 140 pixeles a la derecha (recordando que la caja tiene 140 pixeles) y que se alinie a 0 pixeles del menú que le da origen*/
+	right:-200px;			/*acá estamos diciendo que la posicion relativa sea 140 pixeles a la derecha (recordando que la caja tiene 140 pixeles) y que se alinie a 0 pixeles del menú que le da origen*/
 	top:0px;
 	}
 
