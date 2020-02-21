@@ -33,7 +33,7 @@ main {
 	position:absolute;
 	z-index: 2;
 	top:100px;
-	width: 97%;
+	width: 100%;
 	max-width: 1000px;
 	display: block;
 	}
