@@ -4,133 +4,128 @@
 }
 
 * {
-	margin:0px;
-	padding:0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
-	background-color: white;
-	font-family: 'Alegreya Sans', sans-serif;
+    background-color: white;
+    font-family: "Alegreya Sans", sans-serif;
     line-height: 1.3;
-	width: 100%;
-	max-width: 1000px;
-	margin-right: auto;
-	margin-left: auto;
-  }
+    width: 100%;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 nav {
-	background-color: white;
-	position: fixed;		/* con esto hago que el header que contiene la botonera quede fijo */
-  	z-index: 10;			/* la propiedad z-index ordena que elelemto va arriba y que va abajo —layers— donde 0 es el elemento que esta debajo de todo */
-  	top:0px;				/* aca indico que este a 0 pixeles del top */
-  	width: 100%;
-  	max-width: 1000px;			/* que ancho tendrá el header */
+    background-color: white;
+    position: fixed; /* con esto hago que el header que contiene la botonera quede fijo */
+    z-index: 10; /* la propiedad z-index ordena que elelemto va arriba y que va abajo —layers— donde 0 es el elemento que esta debajo de todo */
+    top: 0px; /* aca indico que este a 0 pixeles del top */
+    width: 100%;
+    max-width: 1000px; /* que ancho tendrá el header */
     clear: both;
-
 }
 
 main {
-	position:absolute;
-	z-index: 2;
-	top:100px;
-	width: 100%;
-	max-width: 1000px;
-	display: block;
-	}
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    width: 100%;
+    max-width: 1000px;
+    display: block;
+}
 
-hr{
-	color:rgb(51 51 51);
-	border: 2px solid;
-	width: 100%;
-	max-width: 1000px;
-	}
+hr {
+    color: rgb(51 51 51);
+    border: 2px solid;
+    width: 100%;
+    max-width: 1000px;
+}
 
-section hr{
-	color:rgb(51 51 51);
-	opacity: 0.5;
-	border: .5px dashed;
-	width: 100%;
-	max-width: 1000px;
-	}
-
+section hr {
+    color: rgb(51 51 51);
+    opacity: 0.5;
+    border: 0.5px dashed;
+    width: 100%;
+    max-width: 1000px;
+}
 
 h1 {
-    font-family: 'Andada', serif;
-	display: block;
-	float: left;
-	margin-left: 10px;
+    font-family: "Andada", serif;
     display: block;
-	}
+    float: left;
+    margin-left: 10px;
+    display: block;
+}
 
 h2 {
-	font-size: 1.7rem;
-	font-weight: 600;
-	display: block;
-	padding: 20px 0 0 0;
+    font-size: 1.7rem;
+    font-weight: 600;
+    display: block;
+    padding: 20px 0 0 0;
+}
 
-	}
-
-h3{
-	font-size: 1.1rem;
+h3 {
+    font-size: 1.1rem;
     font-weight: 600;
     margin-bottom: 1.3rem;
     display: block;
-	}
-
+}
 
 .bajada {
-	display:block;
-	padding: 0 0 10px 0;
-	font-size: 1.7rem;
-	font-weight: 300;
-	line-height:1.25;
+    display: block;
+    padding: 0 0 10px 0;
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 1.25;
 }
 
 .textright {
-	display: block;
-	float: right;
-	padding: 5px 0 5px 0;
+    display: block;
+    float: right;
+    padding: 5px 0 5px 0;
     text-transform: uppercase;
     font-weight: 600;
-    letter-spacing: .1em;
-	text-decoration:none;
-	font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    font-size: 0.7rem;
 }
 
 .gototop a {
-	display: inline-block;
-	padding: 10px 10px;
-	margin: 0 0 0 0;
-	width: 98.4%;
-	max-width: 1000px;
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 0 0 0 0;
+    width: 98.4%;
+    max-width: 1000px;
     text-transform: uppercase;
     font-weight: 500;
-    letter-spacing: .1em;
-	text-decoration:none;
-	background-color: rgb(51 51 51);
-	font-size: .8rem;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    background-color: rgb(51 51 51);
+    font-size: 0.8rem;
 }
 
 a {
-	text-decoration: none;
-	color:rgb(159, 205, 77);
+    text-decoration: none;
+    color: rgb(159, 205, 77);
 }
 
-p, ul, ol {
-	color:#5F5F5F;
+p,
+ul,
+ol {
+    color: #5f5f5f;
 }
 
 ul {
-	list-style: square;
-	list-style-position: inside;
+    list-style: square;
+    list-style-position: inside;
 }
 
 ol {
-	list-style-position: inside;
+    list-style-position: inside;
 }
-
-
-
 
 ul.green {
     list-style: none;
@@ -149,163 +144,168 @@ ul.green li::before {
     margin-left: -1em;
 }
 
-
-
 figure {
-	margin: 0px;
-	margin: 20px 0px 20px 0px;
+    margin: 0px;
+    margin: 20px 0px 20px 0px;
 }
 
-img{
-	width: 100%;
-	max-width: 1000px;
+img {
+    width: 100%;
+    max-width: 1000px;
 }
 
 .imgleft {
-	float: left;
-	width: 50%;
-	margin: 20px 20px 20px 0px;
+    float: left;
+    width: 50%;
+    margin: 20px 20px 20px 0px;
 }
 
 .imgright {
-	float: right;
-	width: 50%;
-	margin: 20px 0px 20px 20px;
+    float: right;
+    width: 50%;
+    margin: 20px 0px 20px 20px;
 }
 
 .container {
-	padding: 0px;
-	margin: 30px 0px 30px 0px;
+    padding: 0px;
+    margin: 30px 0px 30px 0px;
 }
 
 .flex-container {
-	display: inline-block;
-	padding: 0;
-	width: 33%;
-	vertical-align: text-top;
-	margin: 30px 0px 30px 0px;
+    display: inline-block;
+    padding: 0;
+    width: 33%;
+    vertical-align: text-top;
+    margin: 30px 0px 30px 0px;
 }
 
 .columntext {
-	column-count: 3;
-	column-gap: 40px;
-	marging:30px 0px 30px 0px;
-	column-rule-style: dotted;
-	column-rule-width: 1px;
-	column-rule-color: #5F5F5F;
+    column-count: 3;
+    column-gap: 40px;
+    marging: 30px 0px 30px 0px;
+    column-rule-style: dotted;
+    column-rule-width: 1px;
+    column-rule-color: #5f5f5f;
 }
 
 .columntext4 {
-	column-count: 4;
-	column-gap: 40px;
-	marging:30px 0px 30px 0px;
-	column-rule-style: dotted;
-	column-rule-width: 1px;
-	column-rule-color: #5F5F5F;
-	font-size: 0.8rem;
+    column-count: 4;
+    column-gap: 40px;
+    marging: 30px 0px 30px 0px;
+    column-rule-style: dotted;
+    column-rule-width: 1px;
+    column-rule-color: #5f5f5f;
+    font-size: 0.8rem;
 }
-
 
 /* |||||| ESTILOS DE LA BARRA DE NAVEGACION |||||| */
 
 .nav {
-	padding: 15px 0 0 0;
+    padding: 15px 0 0 0;
 }
-.nav ul li{
-	list-style:none;      		/*esto le saca el bolet */
-	padding: 0px 0px;			/*esto le saca la sangria a la lista */
+.nav ul li {
+    list-style: none; /*esto le saca el bolet */
+    padding: 0px 0px; /*esto le saca la sangria a la lista */
 }
 
 .nav li {
-	list-style: none;
-	padding: 0px 0px;
-	margin: 0px 0px;
+    list-style: none;
+    padding: 0px 0px;
+    margin: 0px 0px;
 }
 
 .logo {
-	display: block;
-	margin: 0px;
-	padding: 0px;
-	overflow: auto;
-	display: block;
-	float: left;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+    display: block;
+    float: left;
 }
 
 .logo > a img {
-	max-height: 50px;
-	vertical-align: middle;
-	padding: 10px 0 0 0;
-
+    max-height: 50px;
+    vertical-align: middle;
+    padding: 10px 0 0 0;
 }
 
-.nav > li {       				/* ahora, los elementos li que esten directamente adentro de la clase nav, esto se indica con el signo <, seguiran las siguientes reglas */
-	float:right;				/* el float left hace que la lista que esta inmediatamente despues de la etiqueta nav se posicionan desde el margen izquierdo en sentido horizontal, la lista fluye hacia el costado, vemos que las sublistas se siguen acomodando para abajo */
-	}
+.nav > li {
+    /* ahora, los elementos li que esten directamente adentro de la clase nav, esto se indica con el signo <, seguiran las siguientes reglas */
+    float: right; /* el float left hace que la lista que esta inmediatamente despues de la etiqueta nav se posicionan desde el margen izquierdo en sentido horizontal, la lista fluye hacia el costado, vemos que las sublistas se siguen acomodando para abajo */
+}
 
-.nav li a {                   /* todos los elementos a, que esten dentro de li que esten dentro de la clase nav seguirán las reglas a continuanción */
-	background-color:white;   /* color de fondo */
-	color:black;  			  /* color de la tipografia */
-	font-size: 0.8rem;
+.nav li a {
+    /* todos los elementos a, que esten dentro de li que esten dentro de la clase nav seguirán las reglas a continuanción */
+    background-color: white; /* color de fondo */
+    color: black; /* color de la tipografia */
+    font-size: 0.8rem;
     text-transform: uppercase;
-    letter-spacing: .1em;
-	text-decoration:none;     /*como es un link por deafult el navegador lo subraya, al poner non decoration, saca ese subrayado */
-	padding: 15px 15px;
-	display:block;            /* por defaul la caja que toma el navegador es la caja typografica inline, al darle un color de fondo, backgroud color, estamos haciendo que tenga una caja cuadrada de fondo que es mas grande que la caja tipografia, para que el navegador lea esta caja de color y no la caja tipografica, agregamos la propiedad display con el valor block en lugar de inline */
+    letter-spacing: 0.1em;
+    text-decoration: none; /*como es un link por deafult el navegador lo subraya, al poner non decoration, saca ese subrayado */
+    padding: 15px 15px;
+    display: block; /* por defaul la caja que toma el navegador es la caja typografica inline, al darle un color de fondo, backgroud color, estamos haciendo que tenga una caja cuadrada de fondo que es mas grande que la caja tipografia, para que el navegador lea esta caja de color y no la caja tipografica, agregamos la propiedad display con el valor block en lugar de inline */
 }
 
-
-.nav li a:hover {							 /* aqui doy formato a los elementos a dentro de la lista dentro de la clase nav cuando el maus pasa por encima de ellos */
-	background-color:#323232;		/*#333333 gris frio /*solo cambio el color de fondo*/
-	color:white;
+.nav li a:hover {
+    /* aqui doy formato a los elementos a dentro de la lista dentro de la clase nav cuando el maus pasa por encima de ellos */
+    background-color: #323232; /*#333333 gris frio /*solo cambio el color de fondo*/
+    color: white;
 }
 
-.nav li ul {				/*aqui creamos las reglas que seguiran los submenues*/
-	display:none;			/*propiedad display valor none, hace que las sublistas no se vean*/
-	position:absolute;      /*esto es para que el tamaño de la caja sea igual al de la caja del menu principal*/
-	min-width:200px;
-	padding: 0px;			/*esto le saca la sangria a la lista */
+.nav li ul {
+    /*aqui creamos las reglas que seguiran los submenues*/
+    display: none; /*propiedad display valor none, hace que las sublistas no se vean*/
+    position: absolute; /*esto es para que el tamaño de la caja sea igual al de la caja del menu principal*/
+    min-width: 200px;
+    padding: 0px; /*esto le saca la sangria a la lista */
 }
 
-.nav li:hover > ul {        /* aquí hacemos que cuando pasamos con el maus (:hover) las sublistas directas de la lista que esta dentro de nav aparezcan debajo según el tambaño de la caja de color, no de la caja tipografica */
-	display:block
-	}
+.nav li:hover > ul {
+    /* aquí hacemos que cuando pasamos con el maus (:hover) las sublistas directas de la lista que esta dentro de nav aparezcan debajo según el tambaño de la caja de color, no de la caja tipografica */
+    display: block;
+}
 
-.nav li ul li {				/*aqui formateamos la sublista de la sublista de la lista dentro de nav*/
-	position:relative;		/*la posicion relativa hace que este sub menu aparezca al lado y no debajo, como ocurriría si ponemos absoluto*/
-	}
+.nav li ul li {
+    /*aqui formateamos la sublista de la sublista de la lista dentro de nav*/
+    position: relative; /*la posicion relativa hace que este sub menu aparezca al lado y no debajo, como ocurriría si ponemos absoluto*/
+}
 
 .nav li ul li ul {
-	right:-200px;			/*acá estamos diciendo que la posicion relativa sea 140 pixeles a la derecha (recordando que la caja tiene 140 pixeles) y que se alinie a 0 pixeles del menú que le da origen*/
-	top:0px;
-	}
-
+    right: -200px; /*acá estamos diciendo que la posicion relativa sea 140 pixeles a la derecha (recordando que la caja tiene 140 pixeles) y que se alinie a 0 pixeles del menú que le da origen*/
+    top: 0px;
+}
 
 /* |||||| ESTILOS DE LOS SLIDES |||||| */
 
-.mainslides {		/* slide grande ancho de ventana */
-	width: 100%; 	/* ancho de ventana */
-	max-width: 1000px;
-	margin: 20px 0 20px 0;
+.mainslides {
+    /* slide grande ancho de ventana */
+    width: 100%; /* ancho de ventana */
+    max-width: 1000px;
+    margin: 20px 0 20px 0;
 }
 
-.smallslidesright {		/* slide es pequeño y esta a la derecha */
-	float: right;
-	width: 60%;
-	margin: 0px 0px 0px 20px;
+.smallslidesright {
+    /* slide es pequeño y esta a la derecha */
+    float: right;
+    width: 60%;
+    margin: 0px 0px 0px 20px;
 }
 
-.smallslidesleft {		/* slide es pequeño y esta a la izquierda */
-	float: left;
-	width: 60%;
-	margin: 0px 20px 0px 0px;
+.smallslidesleft {
+    /* slide es pequeño y esta a la izquierda */
+    float: left;
+    width: 60%;
+    margin: 0px 20px 0px 0px;
 }
 
-.slides{			/* aquí formateo el contenedor de las imagenes */
-	width: 100%; 	/* o sea, es 100% de los 90% que ocupa el bloque slides */
+.slides {
+    /* aquí formateo el contenedor de las imagenes */
+    width: 100%; /* o sea, es 100% de los 90% que ocupa el bloque slides */
 }
 
-.slides img {		/* formato de las img dentro de la clase slides */
-	width: 100%;
+.slides img {
+    /* formato de las img dentro de la clase slides */
+    width: 100%;
 }
 
 /* aqui doy formato a la barra de navegacion de los slides.
@@ -317,59 +317,60 @@ la tipografia en el body > en body
 que no tenga tenga los bollets > en ul
 que no tenga sangria > en ul */
 
-
 .slidesjs-pagination {
-	list-style: none;
-	margin: 0px;
-	overflow: auto;
+    list-style: none;
+    margin: 0px;
+    overflow: auto;
 }
 
-.slidesjs-pagination li {	/* las listas dentro de esta clase deben ser horizontales */
-	float: left;			/* aquí hago que la lista de escriba desde la izquierda hacia la derecha y no de arriba hacia abajo */
+.slidesjs-pagination li {
+    /* las listas dentro de esta clase deben ser horizontales */
+    float: left; /* aquí hago que la lista de escriba desde la izquierda hacia la derecha y no de arriba hacia abajo */
 }
 
-.slidesjs-pagination li a {	/* links, dentro de listas, dentro de esta clase paginacion */
-	display: block;			/* para que tome como caja un cuadrado y no el texto */
-	padding: 5px 5px;
-	color: black;
-	text-decoration: none;	/* aca saco el subrayado por defaul de los links */
+.slidesjs-pagination li a {
+    /* links, dentro de listas, dentro de esta clase paginacion */
+    display: block; /* para que tome como caja un cuadrado y no el texto */
+    padding: 5px 5px;
+    color: black;
+    text-decoration: none; /* aca saco el subrayado por defaul de los links */
 }
 
 .slidesjs-pagination li a:hover {
-	color: rgb(159, 205, 77);
+    color: rgb(159, 205, 77);
 }
 
-.slides .active {			/* aca formateo los elementos dentro de la clase slides dentro de la clase active es porque son un link activo o desactivo, si el slide esta en 1, el link 1 es el activo, entonces ese boton que esta activo tomara las propiedades que describo a continuación */
-	text-decoration: underline;
+.slides .active {
+    /* aca formateo los elementos dentro de la clase slides dentro de la clase active es porque son un link activo o desactivo, si el slide esta en 1, el link 1 es el activo, entonces ese boton que esta activo tomara las propiedades que describo a continuación */
+    text-decoration: underline;
 }
 
-.slidesjs-navigation {	/* aca doy formato al play, previos, next */
-	color: black;
-	text-decoration: none;
-	padding: 10px 10px;
-	display: inline-block; 	/* esto me permite alinearlo en el margen derecho en la misma linea que los numeritos */
-	float: right;			/* para que cuelgue del margen derecho */
+.slidesjs-navigation {
+    /* aca doy formato al play, previos, next */
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: inline-block; /* esto me permite alinearlo en el margen derecho en la misma linea que los numeritos */
+    float: right; /* para que cuelgue del margen derecho */
 }
-
 
 /* FORMATEO DE LA GALERIA DE FONT IN USE */
 /* PARA 3 POR LINEA 33.33% -PERO NO FUNCIONA- SI SON 4, 25% Y SI SON 2 50%, puede fallar */
 
 .row::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .row {
-  display: flex;
+    display: flex;
 }
 
 .column {
-  flex: 33.33%;
-  padding: 5px;
+    flex: 33.33%;
+    padding: 5px;
 }
-
 
 code {
     font-weight: normal;
@@ -378,5 +379,4 @@ code {
     color: #000;
     padding: 0.1em;
     display: inline-block;
-
 }
