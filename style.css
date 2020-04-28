@@ -182,7 +182,7 @@ img {
 .columntext {
     column-count: 3;
     column-gap: 40px;
-    marging: 30px 0px 30px 0px;
+    margin: 30px 0px 30px 0px;
     column-rule-style: dotted;
     column-rule-width: 1px;
     column-rule-color: #5f5f5f;
@@ -191,7 +191,7 @@ img {
 .columntext4 {
     column-count: 4;
     column-gap: 40px;
-    marging: 30px 0px 30px 0px;
+    margin: 30px 0px 30px 0px;
     column-rule-style: dotted;
     column-rule-width: 1px;
     column-rule-color: #5f5f5f;
