@@ -236,7 +236,7 @@ img {
 
 .nav li a {
     /* todos los elementos a, que esten dentro de li que esten dentro de la clase nav seguirán las reglas a continuanción */
-    background-color: white; /* color de fondo */
+    background-color: #FAFBFC; /* color de fondo */
     color: black; /* color de la tipografia */
     font-size: 0.8rem;
     text-transform: uppercase;
