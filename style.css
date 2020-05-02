@@ -236,7 +236,7 @@ img {
 
 .nav li a {
     /* todos los elementos a, que esten dentro de li que esten dentro de la clase nav seguirán las reglas a continuanción */
-    background-color: #FAFBFC; /* color de fondo */
+    background-color: white; /* color de fondo */
     color: black; /* color de la tipografia */
     font-size: 0.8rem;
     text-transform: uppercase;
@@ -268,6 +268,7 @@ img {
 .nav li ul li {
     /*aqui formateamos la sublista de la sublista de la lista dentro de nav*/
     position: relative; /*la posicion relativa hace que este sub menu aparezca al lado y no debajo, como ocurriría si ponemos absoluto*/
+    background-color: #FAFBFC;
 }
 
 .nav li ul li ul {
