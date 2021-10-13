@@ -38,14 +38,14 @@ main {
 }
 
 hr {
-    color: rgb(77 72 69);
+    color: rgb(77 72 69); /*gris*/
     border: 2px solid;
     width: 100%;
     max-width: 1000px;
 }
 
 section hr {
-    color: rgb(255 108 44);
+    color: rgb(77 72 69); /*gris*/
     opacity: 0.5;
     border: 0.5px dashed;
     width: 100%;
