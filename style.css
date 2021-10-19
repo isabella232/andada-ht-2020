@@ -381,3 +381,62 @@ code {
     padding: 0.1em;
     display: inline-block;
 }
+
+
+
+/* A PARITR DE AQUI EL ESTILO DE LA BOTONERA */
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: white;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    display: flex;
+}
+
+
+.topnav .weg {
+    background: url(./img/ht.svg) 14px center no-repeat;
+    padding-left: 52px;
+    background-size: 28px 28px;
+}
+
+.topnav i {
+    margin-left: 0.5em;
+}
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    display: block;
+    color: black; /* color de las palabras */
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.topnav a:hover {
+    background-color: #9ce6d7;
+}
+
+.topnav div {
+    display: flex;
+}
+.topnav .icon {
+    display: none;
+}
+.flexcontainter {
+    display: flex;
+}
+
+@media screen and (max-width: 700px) {
+    .topnav {
+        justify-content: space-between;
+    }
+    .topnav div.parts {
+        display: none;
+    }
+}
